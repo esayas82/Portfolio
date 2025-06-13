@@ -1,0 +1,50 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 	.main_nav{
+ 		background: #212121 !important;
+ 		color: #fff !important;
+ 	}
+ 	.logo{
+ 		color: #fff !important;
+ 	}
+	.navbar-default .navbar-nav>.active>a, 
+	.navbar-default .navbar-nav>.active>a:focus, 
+	.navbar-default .navbar-nav>.active>a:hover{
+	    background: transparent !important;
+	    border-bottom: 2px solid #212121;
+	    color: #212121;
+	}
+ 	.navbar-default .navbar-collapse{
+ 		border-color: #212121;
+ 	}
+ 	.main_nav .navbar-nav>li>a{
+ 		color: #fff;
+ 		padding-left: 10px;
+ 	}
+ 	.main_nav .navbar-nav>li>a:hover,
+	.main_nav .navbar-nav>li>a:focus{
+	 	color: #555; 
+	}
+	.service_back_1,.service_back_2{
+		display: none;
+	}
+    .services{
+    	position: static;
+    	transform: translate(0);
+    	box-shadow: none;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
